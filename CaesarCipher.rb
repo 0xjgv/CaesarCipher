@@ -14,7 +14,7 @@ def caesar_cipher()
 	encrypting_word = encrypt_word.split('')
 	encrypting_letters = []
 	
-	for l in encrypting_word     # A..Z, 65..90 ------
+	for l in encrypting_word     # A..Z, 65..90
 		if l.ord == 32
 			encrypting_letters << l
 		elsif l.upcase.ord + shift < 65
